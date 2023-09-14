@@ -8,7 +8,7 @@ In this blog post, we introduce you to the [noWorkflow](https://github.com/gems-
 
 You can find the code of this tutorial on our [GitHUb repository](https://ucsc-ospo.github.io/osre/).
 
-## noWorkflow1
+## Introducing the noWorkflow
 
 According to the noWorkflow developers' team, the primary goal of noWorkflow is to _"...allow scientists to benefit from provenance data analysis even when they don't use a workflow system."_. Unlike other tools, _"noWorkflow captures provenance from Python scripts without needing a version control system or any other environment"_. It is particularly interesting when we are in the scenario described above, where we lack any structured system at the beginning of experiments. In fact, after going through the docs, we can verify that noWorkflow provides:
 
