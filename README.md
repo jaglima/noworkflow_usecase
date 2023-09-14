@@ -144,7 +144,7 @@ trial_intersection_diff(list_id[0], list_id[-1])
 
 In the previous output, you may have noticed that 'pca_components' has been changed from 3 to 5, and the 'test_dim' size has increased from 0.2 to 0.3. However, please be aware that the vectors, matrices and complex types like 'y_test' and 'y_pred,' are not available for inspection. We acknowledge this limitation and it is on our backlog.
 
-When running trial_diff(), the function displays the values of variables and function calls in a diff file format, emphasizing the sequence of operations performed. The purpose is to identify any discrepancies that occurred between the two trials.
+When running trial_diff(), the function displays the values of variables and function calls in a diff file format, emphasizing the sequence of operations performed. The purpose is to identify any discrepancies that occurred between the two trials. In the side columns, the letters f, n and t mean to (f)irst, (n)ext and (t)op. They are links that allow the user to navigate through the position of the differences detected.
 
 ``` python
 trial_diff(list_id[0], list_id[-1])
@@ -154,7 +154,7 @@ trial_diff(list_id[0], list_id[-1])
 
 In this case, we can easily spot the differences in the 'pca_components' and 'test_dim' provenance as well as differences in their results. 
 
-## Tagged multi trial plots
+## Tagged multi-trial plots
 
 From a broader perspective, we implemented a multi-trials displaying feature, where we can easily inspect the values of tags across multiple trials. This feature is particularly useful when evaluating the behavior of control variables across various trials and serves as an initial step in facilitating cross-comparisons between features and results in multi-trial experiments.
 
