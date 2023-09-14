@@ -6,7 +6,7 @@ However, as these experiments progress, they quickly grow in complexity, and man
 
 In this blog post, we introduce you to the [noWorkflow](https://github.com/gems-uff/noworkflow) package, with exciting features born out of the [Summer of Reproducibility](https://ucsc-ospo.github.io/osre/) project in 2023. We'll demonstrate its capabilities with a practical use case, highlighting on how it can streamline your workflow.
 
-You can find the code of this tutorial on our [GitHUb repository](https://ucsc-ospo.github.io/osre/).
+You can find the code of this tutorial on our [GitHUb repository](https://github.com/jaglima/noworkflow_usecase).
 
 ## Introducing the noWorkflow
 
