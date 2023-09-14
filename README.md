@@ -32,7 +32,7 @@ To showcase how these features can take your experiment management to another le
 
 ## Noworkflow Setup
 
-To perform this tutorial, we highly recommend setting up a Conda environment on your system, which involves installing the noWorkflow package and Jupyter Lab. To reproduce the experimental Notebooks, you can clone this repository as well. Take advantage of the _requirements.txt_ file to accelerate your setup with pip tools.
+To perform this tutorial, we highly recommend setting up a Conda environment on your system, which involves installing the noWorkflow package and Jupyter Lab. To reproduce the experimental Notebooks, you can clone this repository as well. Take advantage of the [_requirements.txt_](requirements.txt) file to accelerate your setup with pip tools.
 
 To create a new Conda environment, run the following commands:
 
