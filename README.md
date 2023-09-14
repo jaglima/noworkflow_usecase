@@ -191,15 +191,6 @@ var_tag_values('model')
 <img src="./images/tag_values_model.png" alt="drawing" width=70%/>
 
 
-### Cleaning notebooks
-
-Another very interesting feature of noWorkflow is the ability to clean notebooks. This feature is very useful when you are working with different experiments in a single notebook. Recurring to the command line, a researcher can obtain a notebook cleaned of any cells that don't relate to a specific cell. The way of doing this on the command line is:
-
-```python
-now clean -n 9 -i my_notebook.ipynb -o final.ipynb
-```
-Where 9 is the number of cells that contain the target value that we want to keep. Again, we encourage the user to try this feature after performing a series of cell operations and see the final result.
-
 ### Final words
 
 In this brief tutorial, we have demonstrated how to use noWorkflow to enhance the management of experiments in DS and ML during their initial stages. These features are the foundation for exploring the advantages that noWorkflow offers as a provenance collection tool in the field of data analytics.
