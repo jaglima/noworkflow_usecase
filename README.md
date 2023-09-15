@@ -49,7 +49,6 @@ pip install -r requirements.txt
 Install the noWorkflow:
 ```bash
 # install noworkflow
-cd noworkflow_usecase
 git clone https://github.com/gems-uff/noworkflow.git
 
 cd noworkflow
