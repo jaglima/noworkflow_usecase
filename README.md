@@ -34,31 +34,38 @@ To showcase how these features can take your experiment management to another le
 
 To perform this tutorial, we highly recommend setting up a Conda environment on your system, which involves installing the noWorkflow package and Jupyter Lab. To reproduce the experimental Notebooks, you can clone this repository as well. Take advantage of the [_requirements.txt_](requirements.txt) file to accelerate your setup with pip tools.
 
-To create a new Conda environment, run the following commands:
+First, clone our use case tutorial to your local machine and create a separate environment:
 
 ```bash
+git clone https://github.com/jaglima/noworkflow_usecase.git
+
+cd noworkflow_usecase
 # Create a conda env
-conda create -n noworkflow python=3.7
+conda create -n noworkflow python=3.10
 conda activate noworkflow
 pip install -r requirements.txt
 
 # install noworkflow version 2.0.0
 git clone https://github.com/gems-uff/noworkflow.git
-cd noworkflow/capture
-pip install -e
+```
+
+Install the noWorkflow:
+```bash
+cd noworkflow
+pip install -e capture[demo]
 pip install jupyter==1.0.0
 jupyter nbextension install --py --sys-prefix noworkflow
 jupyter nbextension enable noworkflow --py --sys-prefix
 
 # install noworkflow jupyter kernel
 now kernel
+cd ..
 ```
 
-Next, clone our use case tutorial to your local machine:
+Finally, fire up the Jupyter Lab to start the fun.
 
-```bash
-git clone https://github.com/jaglima/noworkflow_usecase.git
-
+```python
+jupyter lab
 ```
 
 In the noworkflow_usecase directory, you will find the dataset directory and five Notebooks. [Notebook 1](now_usecase_part_1.ipynb) and [Notebook 2](now_usecase_part_2.ipynb) represent two distinct trials of a Fraud Detection experiment we will go through next sessions. [Notebook 3](now_usecase_part_3.ipynb) wraps up a comparison between trials 1 and 2. [Notebook 4](now_usecase_part_4.ipynb) presents another trial using a different approach. [Notebook 5](now_usecase_part_5.ipynb) offers a comparison between trials 1 and 4.
