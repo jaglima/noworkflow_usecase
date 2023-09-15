@@ -44,13 +44,14 @@ cd noworkflow_usecase
 conda create -n noworkflow python=3.10
 conda activate noworkflow
 pip install -r requirements.txt
-
-# install noworkflow version 2.0.0
-git clone https://github.com/gems-uff/noworkflow.git
 ```
 
 Install the noWorkflow:
 ```bash
+# install noworkflow
+cd noworkflow_usecase
+git clone https://github.com/gems-uff/noworkflow.git
+
 cd noworkflow
 pip install -e capture[demo]
 pip install jupyter==1.0.0
